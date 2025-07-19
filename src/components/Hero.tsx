@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 import Typewriter from "typewriter-effect";
 import profile from "../assets/mona5.png";
-import background from "../assets/background.jpeg";
+import background from "../assets/imageb.png";
 
 export default function Hero() {
   return (
@@ -34,8 +34,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-gray-300 flex items-left justify-left mb-8">
-          I am a{" "}
-          <span className="ml-2 font-bold text-blue-400">
+          I am a {" "}
+          <span className="ml-2 font-bold text-yellow-400">
             <Typewriter
               options={{
                 strings: ["Full Stack Developer", "AI enthusiast", "Blockchain Developer"],
