@@ -3,6 +3,31 @@ import { Code, Server, Shield } from 'lucide-react';
 
 const experiences = [
   {
+    icon: Code,
+    title: "Cybersecurity Analyst & Lead Architect",
+    company: "BitArmora",
+    description: [
+      "Led security architecture design for ArmoraBioKey, a biometric authentication system eliminating raw template storage across 3+ authentication workflows.",
+      "Developed and configured GitLab CI/CD pipelines with SBOM generation, smoke tests, and automated test harness workflows to enhance security validation and operational reliability.",
+      "Worked with Docker and Nexus Repository Manager to manage containerized artifacts and implement policy-drivenvalidation workflows within CI/CD pipelines.",
+      "Performed threat modeling and operational risk analysis, identifying and mitigating replay attack vectors in authentication pipelines.",
+      "Researched and prototyped cryptographic template protection techniques including secure hashing to reduce biometric data exposure.",
+      "Participated in incident analysis and mitigation planning for authentication-related operational risks."
+    ],
+    duration: "Jan 2026 - Present"
+  },
+    {
+    icon: Code,
+    title: "Operational Intern",
+    company: "CRED",
+    description: [
+      "Contributed to a voice bot project for CRED Wallet, designing structured conversational workflows to improveloan-related query resolution.",
+      "Built and maintained knowledge base content and automation workflows handling high-volume customer support tickets via Freshdesk",
+      "Configured API workflows and operational automation using Padawan, improving pipeline efficiency.",
+    ],
+    duration: "Nov 2025 - Jan 2026"
+  },
+  {
     icon: Server,
     title: "Tech Mahindra",
     company: "Trainee - Support",
@@ -14,18 +39,6 @@ const experiences = [
     ],
     duration: "June 2025 - July 2025"
   },
-  {
-    icon: Code,
-    title: "Adversity Solutions",
-    company: "Blockchain Developer Intern",
-    description: [
-      "Building FewDotNFT – a blockchain platform to showcase Indian art NFTs.",
-      "Developing secure smart contracts using Solidity and Hardhat on Sepolia testnet.",
-      "Creating and integrating dApps using Ethers.js and other Web3 tools.",
-      "Engaging in code reviews, debugging, and exploring blockchain protocols like Ethereum and Hyperledger."
-    ],
-    duration: "Mar 2025 - Present"
-  }
 ];
 
 export default function Experience() {

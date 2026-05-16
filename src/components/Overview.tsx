@@ -100,8 +100,10 @@ export default function Overview() {
             <br />
 
             <p>
-              I build cool stuff with code—from full stack web apps to AI-powered solutions. Currently building
-              <span className="text-purple-400 font-semibold"> ReGenX</span>, revolutionizing waste and regenerating resources.
+              I build impactful technology solutions ranging from full stack applications to AI-driven systems. Published research under
+              <span className="text-purple-400 font-semibold"> IEEE</span> and indexed in
+              <span className="text-purple-400 font-semibold"> Scopus</span>, with a patent filed through the
+              <span className="text-purple-400 font-semibold"> Indian Patent Office</span>.
             </p>
 
             <br />
@@ -113,7 +115,7 @@ export default function Overview() {
 
             <p className="flex items-center gap-2">
               <Target className="text-purple-400" size={16} />
-              <span>Focus: Blockchain, AI, full-stack magic.</span>
+              <span>Focus: Cybersecurity, AI, full-stack magic.</span>
             </p>
 
             <br />

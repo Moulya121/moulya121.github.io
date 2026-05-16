@@ -38,7 +38,7 @@ export default function Hero() {
           <span className="ml-2 font-bold text-yellow-400">
             <Typewriter
               options={{
-                strings: ["Full Stack Developer", "AI enthusiast", "Blockchain Developer"],
+                strings: ["Backend Engineer", "Cybersecurity Analyst", "AI enthusiast"],
                 autoStart: true,
                 loop: true,
                 delay: 50,
